@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    letter-spacing: 2px;
+}
+
+.main{
+    display: flex;
+
+}
+
+
+video{
+    margin:0;
+    padding:0;
+    width:60vw;
+    height:100vh;
+}
+
+.content{
+    font-family: 'Pixelify Sans', sans-serif;
+    /* position: relative; */
+ 
+    flex:1;
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background: linear-gradient(#f70776,#c06c84);
+    border-spacing: 52px;;
+}
+
+.box{
+    padding:25px;
+    border:2px solid #ffe700;
+    color: #fcff82;
+
+    /* text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);  */
+
+    
+    /* 
+    position:relative;
+    top:50%;
+    margin-right:20px; 
+    margin-left:20px; */
+
+
+}
+label{
+    font-size:x-large;
+    margin-left:55px;
+}
+
+input{
+    height: 30px;
+    width:430px;
+    margin-top:5px;
+    margin-bottom:7px;
+    background-color: #f8f398;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size:x-large;
+    letter-spacing: 2px;
+    color:#005792;
+    text-align: center;
+    margin-left:15px;
+    
+}
+
+input:focus{
+    background-color: #fdffcd;
+    border-color: #e94822;
+   
+
+}
+
+button{
+    height: 40px;
+    width:130px;
+    margin-left:170px;
+    margin-top:30px;
+    border:2px dotted  #f8f398; 
+    background-color: #fcff82;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: xx-large;
+    margin-bottom:10px;
+    color:#005689;
+    border-radius: 15px;
+  box-shadow: 0 9px #999;
+  cursor: pointer;
+  outline: none;
+  margin-bottom:25px;
+    
+
+}
+button:hover {
+    
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    background-color: blue;
+    color:#f70776
+  }
